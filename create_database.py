@@ -33,10 +33,9 @@ embedding_model = HuggingFaceEmbeddings(
 )
 
  
-vector_store = Chroma.from_documents(
+vector = Chroma.from_documents(
     documents=docs,
     embedding=embedding_model,
     persist_directory="chroma_db"
 )
-
 
