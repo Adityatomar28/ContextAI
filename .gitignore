@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+
+# Environment variables (VERY IMPORTANT)
+.env
+
+# Node (you have node_modules)
+node_modules/
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Build / cache
+dist/
+build/
