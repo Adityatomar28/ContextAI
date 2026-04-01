@@ -1,0 +1,22 @@
+fastapi
+uvicorn
+sqlalchemy
+aiosqlite
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+pydantic
+pydantic-settings
+email-validator
+greenlet
+
+# RAG specific
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+sentence-transformers
+langchain-mistralai
+chromadb
+pypdf
+python-dotenv

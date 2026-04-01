@@ -1,52 +1,32 @@
+# Core LangChain
 langchain
 langchain-core
 langchain-community
 
-# LLM Providers
-
-langchain-openai
-langchain-mistralai
-openai
-mistralai
-
-# Vector Database
-
-chromadb
-
-# Embedding Models
-
+# HuggingFace embeddings (IMPORTANT)
+langchain-huggingface
 sentence-transformers
 
-# Document Loaders dependencies
+# LLM
+langchain-mistralai
 
+# Vector DB
+chromadb
+
+# Document loaders
 pypdf
 unstructured
 beautifulsoup4
 lxml
 
-# Text Processing
-
-tiktoken
-
-# Environment Variables
-
+# Env
 python-dotenv
 
-# Data Handling
-
-pandas
-numpy
-
-# API / App Layer (optional but common in RAG apps)
-
+# Optional (you can remove if not using)
 fastapi
 uvicorn
-
-# UI (optional)
-
 streamlit
 
 # Utilities
-
 tqdm
 requests

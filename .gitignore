@@ -26,3 +26,9 @@ node_modules/
 # Build / cache
 dist/
 build/
+# Backend Data
+backend/chroma_db/
+backend/context-ai.db
+.env
+.venv/
+
