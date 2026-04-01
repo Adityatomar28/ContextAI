@@ -1,3 +1,4 @@
+print("🚀 APP STARTING...")   # 👈 ADD THIS LINE HERE
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.auth import router as auth_router
