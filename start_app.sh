@@ -15,7 +15,7 @@ FRONTEND_PID=$!
 
 echo "Both systems started!"
 echo "Frontend: http://localhost:3000"
-echo "Backend API: http://localhost:8000"
+echo "Backend API: https://contextai-z4py.onrender.com"
 echo "Press Ctrl+C to stop both."
 
 wait $BACKEND_PID
