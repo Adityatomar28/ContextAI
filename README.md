@@ -29,6 +29,17 @@ Retrieval-Augmented Generation (RAG) is the core engine of Context-AI:
 3. **Embedding Generaton**: We call `sentence-transformers/all-MiniLM-L6-v2` down from HuggingFace to convert English text chunks into high-dimensional numerical vectors.
 4. **Vector Storage**: The resulting vectors are natively cached into the persistent **ChromaDB** envelope located strictly inside the isolated backend directory.
 
+
+
+
+
+<img width="1440" height="904" alt="image" src="https://github.com/user-attachments/assets/da526a28-99e7-4bf3-aa24-997a231dbcd8" />
+
+
+
+
+
+
 ### 3. The Query Engine
 When users type a question into the beautiful dark-mode chat interface:
 - FastAPI embeds their raw text question into a temporary vector.
