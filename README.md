@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Context-AI 🚀
 
 Context-AI is a production-grade, full-stack document analysis platform. Built with a monolithic Next.js and FastAPI architecture, it enables users to seamlessly upload documents, process them into AI-readable vector embeddings, and frictionlessly query that knowledge base in real-time.
@@ -59,3 +60,5 @@ Because this is a consolidated structure, startup is extremely seamless.
 # This automatically spins up Uvicorn (FastAPI) on port :8000 and Next.js on port :3000
 ./start_app.sh 
 ```
+=======
+>>>>>>> edc9c70 (feat: initialize project structure with app router, UI components, and global styles)
